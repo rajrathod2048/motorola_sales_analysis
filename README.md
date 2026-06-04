@@ -1,86 +1,152 @@
-Motorola Mobile Sales Dashboard 📊
-Project Overview
+# Motorola Mobile Sales Dashboard 📊
 
-This Power BI dashboard provides an interactive analysis of Motorola mobile sales performance across different cities, months, payment methods, brands, and mobile models. The dashboard helps stakeholders monitor key business metrics and identify sales trends for data-driven decision-making.
+## Overview
 
-Dashboard Preview
+This project presents an interactive Power BI dashboard built to analyze Motorola mobile phone sales data. The dashboard provides insights into sales performance, customer behavior, product popularity, and payment preferences through dynamic visualizations and filters.
 
-Key Metrics
-Total Sales: 769M
-Total Transactions: 4K
-Total Quantity Sold: 19K
-Average Selling Price: 40K
-Features
-Sales Analysis
-Total sales by city using an interactive map
-Monthly sales trend analysis
-Sales distribution by day of the week
-Brand-wise sales performance
-Product Analysis
-Top 5 mobile models by sales
-Brand comparison
-Quantity and revenue tracking
-Customer Insights
-Customer rating analysis
-Performance measurement based on customer feedback
-Payment Analysis
-Transaction breakdown by payment method:
-UPI
-Credit Card
-Debit Card
-Cash
-Interactive Filters
+## Dashboard Preview
 
-Users can filter the dashboard by:
+![Dashboard Preview](dashboard.png)
 
-Month
-Brand
-Mobile Model
-City
-Tools & Technologies
-Power BI Desktop
-Microsoft Excel
-DAX (Data Analysis Expressions)
-Power Query
-Dataset Information
+---
+
+## Key Performance Indicators (KPIs)
+
+| Metric | Value |
+|----------|----------|
+| Total Sales | 769M |
+| Total Transactions | 4K |
+| Total Quantity Sold | 19K |
+| Average Price | 40K |
+
+---
+
+## Dashboard Features
+
+### 📍 Sales by City
+- Interactive map visualization
+- Compare sales performance across multiple cities
+- Identify high-performing markets
+
+### 📈 Monthly Sales Trend
+- Track sales performance month by month
+- Detect seasonal trends and sales fluctuations
+
+### 📊 Sales by Day
+- Analyze sales distribution across days of the week
+- Identify peak sales periods
+
+### 🏷️ Brand Performance
+- Compare sales across different mobile brands
+- Analyze transaction volume and average selling price
+
+### 📱 Top Selling Models
+- View the top 5 mobile models based on sales revenue
+- Identify best-performing products
+
+### ⭐ Customer Ratings
+- Analyze customer satisfaction levels
+- Monitor rating distribution and customer feedback trends
+
+### 💳 Payment Method Analysis
+- Breakdown of transactions by:
+  - UPI
+  - Credit Card
+  - Debit Card
+  - Cash
+
+### 🎛️ Interactive Filters
+Users can dynamically filter the dashboard by:
+- Month
+- Brand
+- Mobile Model
+- City
+
+---
+
+## Tools & Technologies Used
+
+- Power BI Desktop
+- Microsoft Excel
+- Power Query
+- DAX (Data Analysis Expressions)
+
+---
+
+## Dataset Information
 
 The dataset contains:
 
-Sales transactions
-Mobile brands and models
-Customer ratings
-Payment methods
-Geographic sales locations
-Quantity and pricing information
-Business Insights Generated
-Identified top-performing cities and regions.
-Analyzed monthly sales fluctuations.
-Evaluated customer satisfaction through ratings.
-Determined preferred payment methods.
-Compared sales performance across brands and models.
-Files Included
-File	Description
-motorola sales dashboard.pbix	Power BI Dashboard File
-Motorola Mobile Sales Data.xlsx	Source Dataset
-dashboard.png	Dashboard Screenshot
-How to Use
-Clone this repository:
-git clone https://github.com/your-username/motorola-sales-dashboard.git
-Open the .pbix file in Power BI Desktop.
-Refresh the data source if required.
-Explore the interactive visualizations and filters.
-Skills Demonstrated
-Data Cleaning
-Data Modeling
-DAX Calculations
-Data Visualization
-Dashboard Design
-Business Intelligence
-KPI Reporting
-Author
+- Sales Transactions
+- Mobile Brands
+- Mobile Models
+- Customer Ratings
+- Payment Methods
+- City-wise Sales Data
+- Product Pricing
+- Quantity Sold
 
-Raj Rathod
+---
+
+## Business Insights
+
+This dashboard helps answer questions such as:
+
+- Which cities generate the highest sales?
+- Which mobile models contribute most to revenue?
+- How do sales vary across months?
+- What are the preferred payment methods of customers?
+- Which brands perform best in terms of sales and transactions?
+- How satisfied are customers based on ratings?
+
+---
+
+## Project Files
+
+| File Name | Description |
+|------------|------------|
+| motorola sales dashboard.pbix | Power BI Dashboard |
+| Motorola Mobile Sales Data.xlsx | Source Dataset |
+| dashboard.png | Dashboard Screenshot |
+
+---
+
+## How to Use
+
+1. Download or clone this repository.
+
+```bash
+git clone https://github.com/rajrathod2048/motorola-mobile-sales-dashboard.git
+```
+
+2. Open `motorola sales dashboard.pbix` using Power BI Desktop.
+
+3. Refresh the data if required.
+
+4. Explore the dashboard using the available filters and visualizations.
+
+---
+
+## Skills Demonstrated
+
+- Data Cleaning
+- Data Transformation
+- Data Modeling
+- DAX Measures
+- Business Intelligence
+- Dashboard Design
+- KPI Development
+- Data Visualization
+
+---
+
+## Author
+
+**Raj Rathod**
 
 Final Year B.Tech (Information Technology)
 
-Aspiring Data Analyst | Business Intelligence Enthusiast
+Aspiring Data Analyst | Power BI Developer
+---
+
+⭐ If you found this project helpful, consider giving the repository a star.
